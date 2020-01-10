@@ -1,0 +1,21 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "backend for Delta Value",
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon --exec babel-node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ritter Gustave & Jordan Schmidt",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.7.7",
+		"@babel/node": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
+		"nodemon": "^2.0.2"
+	}
+}
